@@ -1,6 +1,6 @@
-import React from 'react';
-import './App.scss';
-import Sidebar from './components/sidebar/Sidebar';
+import React from 'react'
+import './App.scss'
+import Sidebar from './components/sidebar/Sidebar'
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Sidebar />
       {/* {home} */}
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
