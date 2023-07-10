@@ -1,5 +1,6 @@
 import React from 'react'
 import './Sidebar.scss'
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 
 const Sidebar = () => {
   return (
@@ -13,8 +14,9 @@ const Sidebar = () => {
         </div>
       </div>
       <div className="sidebarRight">
-        <div className="sidbarTop">
+        <div className="sidebarTop">
           <h3>Discord Clone</h3>
+          <ExpandMoreIcon />
         </div>
       </div>
     </div>
