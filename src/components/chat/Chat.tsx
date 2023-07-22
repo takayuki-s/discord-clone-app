@@ -5,12 +5,16 @@ import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline'
 import CardGiftcardIcon from '@mui/icons-material/CardGiftcard'
 import GifIcon from '@mui/icons-material/Gif'
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions'
+import ChatMessage from './ChatMessage'
 
 const Chat = () => {
   return (
     <div className="chat">
       <ChatHeader />
-      <div className="chatMessage"></div>
+      <div className="chatMessage">
+        <ChatMessage />
+        <ChatMessage />
+      </div>
       <div className="chatInput">
         <AddCircleOutlineIcon />
         <form>
