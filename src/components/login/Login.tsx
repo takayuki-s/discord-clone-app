@@ -1,8 +1,17 @@
 import React from 'react'
 import './Login.scss'
+import { Button } from '@mui/material'
 
 const Login = () => {
-  return <div>Login</div>
+  return (
+    <div className="login">
+      <div className="loginLogo">
+        <img src="./discordIcon.png" />
+      </div>
+
+      <Button>ログイン</Button>
+    </div>
+  )
 }
 
 export default Login
