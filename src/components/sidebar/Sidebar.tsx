@@ -8,8 +8,7 @@ import SettingsIcon from '@mui/icons-material/Settings'
 import SidebarChannel from './SidebarChannel'
 import { auth, db } from '../../firebase'
 import { useAppSelector } from '../../app/hooks'
-import { collection, query } from 'firebase/firestore/lite'
-import { onSnapshot } from 'firebase/firestore'
+import { onSnapshot, collection, query } from 'firebase/firestore'
 
 const Sidebar = () => {
   const user = useAppSelector((state) => state.user)
