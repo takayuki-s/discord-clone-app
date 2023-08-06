@@ -33,7 +33,7 @@ const Sidebar = () => {
       )
       setChannels(channelResults)
     })
-  }, [])
+  }, [q])
 
   return (
     <div className="sidebar">

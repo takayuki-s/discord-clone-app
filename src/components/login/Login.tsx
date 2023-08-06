@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.scss'
 import { Button } from '@mui/material'
-import { getAuth, signInWithPopup, GoogleAuthProvider } from 'firebase/auth'
+import { signInWithPopup } from 'firebase/auth'
 import { auth, provider } from '../../firebase'
 
 const Login = () => {
@@ -13,7 +13,7 @@ const Login = () => {
   return (
     <div className="login">
       <div className="loginLogo">
-        <img src="./discordIcon.png" />
+        <img src="./discordIcon.png" alt="" />
       </div>
 
       <Button onClick={signIn}>ログイン</Button>
