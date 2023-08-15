@@ -39,7 +39,7 @@ const Chat = () => {
       collectionRef,
       {
         message: inputText,
-        timestamp: serverTimestamp,
+        timestamp: serverTimestamp(),
         user: user,
       },
     )
