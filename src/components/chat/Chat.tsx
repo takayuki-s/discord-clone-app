@@ -62,7 +62,7 @@ const Chat = () => {
       db,
       'channels',
       String(channelId),
-      'message',
+      'messages',
     )
 
     const docRef: DocumentReference<DocumentData> = await addDoc(
