@@ -81,7 +81,7 @@ const Chat = () => {
         user: user,
       },
     )
-    console.log(docRef)
+    setInputText('')
   }
 
   const channelName = useAppSelector((state) => state.channel.channelName)
@@ -108,6 +108,7 @@ const Chat = () => {
             onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
               setInputText(e.target.value)
             }
+            value={inputText}
           />
           <button
             type="submit"
