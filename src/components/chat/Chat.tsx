@@ -39,7 +39,12 @@ const Chat = () => {
   const user = useAppSelector((state) => state.user.user)
 
   useEffect(() => {
-    let collectionRef = collection(db, 'channels', String(channelId), 'message')
+    let collectionRef = collection(
+      db,
+      'channels',
+      String(channelId),
+      'messages',
+    )
 
     const collectionRefOrderBy = query(
       collectionRef,
